@@ -17,13 +17,19 @@
 			"php": "7.4"
 		}
 	},
+    "repositories": [
+       {
+         "type": "vcs",
+         "url": "https://github.com/chrisnovakovic/TikScraperPHP"
+       }
+     ],
     "require": {
         "php": ">=7.4|^8.0",
         "ext-redis": "^5.3.2|^6.0.0",
         "ext-mbstring": "*",
         "latte/latte": "^2.11",
         "bramus/router": "^1.6",
-        "pablouser1/tikscraper": "^2.4",
+        "pablouser1/tikscraper": "dev-video-rehidratestate",
         "josegonzalez/dotenv": "^4.0"
     },
     "autoload": {

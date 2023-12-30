@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e32037e3931913dc8d292e7dadde275f",
+    "content-hash": "b32d4806cf09fb5961f9ff1595d51923",
     "packages": [
         {
             "name": "bramus/router",
@@ -587,16 +587,16 @@
         },
         {
             "name": "pablouser1/tikscraper",
-            "version": "v2.4.0.3",
+            "version": "dev-video-rehidratestate",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pablouser1/TikScraperPHP.git",
-                "reference": "a64c912b0db72ffa85e3a2e3e6c375f1ae86aedd"
+                "url": "https://github.com/chrisnovakovic/TikScraperPHP.git",
+                "reference": "33c229e3ac010246053595aaa6a1161ee327a14c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pablouser1/TikScraperPHP/zipball/a64c912b0db72ffa85e3a2e3e6c375f1ae86aedd",
-                "reference": "a64c912b0db72ffa85e3a2e3e6c375f1ae86aedd",
+                "url": "https://api.github.com/repos/chrisnovakovic/TikScraperPHP/zipball/33c229e3ac010246053595aaa6a1161ee327a14c",
+                "reference": "33c229e3ac010246053595aaa6a1161ee327a14c",
                 "shasum": ""
             },
             "require": {
@@ -617,7 +617,11 @@
                     "TikScraper\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "test": [
+                    "pest"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -629,10 +633,9 @@
             ],
             "description": "Get data from TikTok API",
             "support": {
-                "issues": "https://github.com/pablouser1/TikScraperPHP/issues",
-                "source": "https://github.com/pablouser1/TikScraperPHP/tree/v2.4.0.3"
+                "source": "https://github.com/chrisnovakovic/TikScraperPHP/tree/video-rehidratestate"
             },
-            "time": "2023-10-06T22:15:09+00:00"
+            "time": "2023-12-21T10:01:26+00:00"
         },
         {
             "name": "php-webdriver/webdriver",
@@ -1233,7 +1236,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pablouser1/tikscraper": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
